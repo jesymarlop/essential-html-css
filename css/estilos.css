@@ -3,7 +3,7 @@
   --gray30: #212429;
   --gray20: #424242;
   --gray10: #616161;
-  --headline1: 'Roboto';
+  --headline1: 'Lato';
 }
 
 html {
@@ -64,6 +64,8 @@ h3 {
 }
 
 header {
+  background-color: rgb(221, 180, 221);
+  padding: 5px;
   margin-block-start: 20px;
   font-size: 14px;
   color: var(--gray10);
@@ -91,8 +93,11 @@ header li {
 nav details summary {
   font-weight: bold;
   line-height: 24px;
-}
 
+}
+.titulo{
+  font-weight: bolder;
+}
 .section-content {
   margin-block-start: 164px;
   position: relative;
@@ -144,13 +149,13 @@ nav details summary {
 }
 
 pre {
-  background-color: #FEC62E;
+  background-color: #c3d6f8;
   padding-block-start: 40px;
   padding-block-end: 40px;
   padding-inline-start: 40px;
   font-family: var(--headline1);
   line-height: 24px;
-  border: 8px solid #5551FF;
+  border: 5px solid #5551FF;
   border-radius: 8px;
   box-shadow: -10px 10px 0 0 #ABAAF6;
   margin-block-end: 30px;
@@ -160,7 +165,6 @@ pre {
 blockquote {
   margin-block-start: 32px;
   margin-block-end: 32px;
-  margin-inline-start: 0;
   margin-inline-end: 0;
   font-size: 24px;
   padding-inline-start: 16px;
